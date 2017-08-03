@@ -1,0 +1,16 @@
+
+#head{
+    background-image: url(pictures/contact/b3.png);
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    opacity: 0.5;
+}
+
+#second{
+    background-image: url(pictures/contact/circle2.png);
+    opacity: 0.9;
+    background-size: 50%; 
+    background-repeat: no-repeat;     
+    padding: 300px;
+    background-position: center;
+}

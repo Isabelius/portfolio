@@ -1,0 +1,110 @@
+#header{
+    color: white;
+    text-align: center;
+    background-image:url(pictures/cover/head4.png);
+    background-size: 100% 120%;
+}
+
+#header > ul{
+position: fixed; 
+z-index: 10; 
+}
+.nipio-brand-button {
+    float: left;
+    transition: transform 0.3s;
+    transform-origin: 0 0;
+}
+.nipio-brand-button:hover {
+    transform: scale(1.2);
+}
+
+.card-header{
+    text-align: center; 
+}
+
+
+#navbar{
+    position:fixed; 
+    font-family: 'Poiret One', cursive;
+}
+
+#accordion{ 
+    font-family: 'Poiret One', cursive;
+}
+
+#mypic{
+    color: teal;
+    text-align: left;
+    margin: 80px;
+}
+
+#back{
+ margin: 10px;
+ text-align: right;
+ float: right;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.nipio-ntext{
+ color: dimgray!important;
+}
+
+#atext{
+ color: #15a4b8;
+    font-size: 1.2em
+}
+
+.dropdown-item{
+ color: #15a4b8;
+}
+
+.accordion-bar{
+ color: dimgray;
+text-align: center;
+}
+
+@keyframes illustration-intro {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-30deg);}
+    75% {transform: rotate(30deg);}
+    100% {transform: rotate(0deg);}
+}
+@keyframes animation-intro {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(45deg);}
+    75% {transform: rotate(-45deg);}
+    100% {transform: rotate(0deg);}
+}
+@keyframes miscellaneous-intro {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-45deg);}
+    75% {transform: rotate(45deg);}
+    100% {transform: rotate(0deg);}
+}
+
+#illustration {
+    width: 100%;
+    animation-name: illustration-intro;
+    animation-duration: 40s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#animation {
+    width: 100%;
+    animation-name: animation-intro;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+#miscellaneous {
+    width: 100%;
+    animation-name: miscellaneous-intro;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
